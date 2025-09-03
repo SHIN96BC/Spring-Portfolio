@@ -30,8 +30,6 @@ Spring 백엔드 코드를 보여드리기 위한 프로젝트 입니다.
 7. **Community / CS**
    - UGC(리뷰/게시판/댓글/신고), Moderation, Customer Support(티켓)
 
----
-
 ## 경계 원칙 (핵심)
 - **데이터 소유권**: 모듈별 DB 스키마(초기엔 한 클러스터 OK). 교차 FK 금지, 앱 레벨 무결성.
 - **돈 흐름 분리**: 고객 결제는 `Payments & Wallet`, 호스트/가맹점 정산은 `Reservation.Payout`.
